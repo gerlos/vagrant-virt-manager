@@ -12,3 +12,5 @@ $ vagrant ssh -- virt-manager
 ```
 
 X11 and SSH Agent Forwarding are automatically provided by Vagrant.
+
+see https://st-g.de/2016/08/virt-manager-in-vagrant
