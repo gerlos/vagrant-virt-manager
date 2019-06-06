@@ -8,6 +8,8 @@ Vagrant.configure(2) do |config|
     # Display the VirtualBox GUI when booting the machine
     # vb.gui = true
     vb.name = "virt-manager"
+    vb.memory = "512"
+    vb.customize ["modifyvm", :id, "--vram", "128"]
   end
 
   config.vm.provision "shell", inline: <<-SHELL
